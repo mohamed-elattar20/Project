@@ -1,0 +1,18 @@
+.imageBox {
+    position: relative;
+    float: left;
+}
+
+.imageBox .hoverImg {
+    position: absolute;
+    left: 0;
+    top: 0px;
+    display: block;
+    transition: 1s all;
+    opacity: 0;
+}
+
+.imageBox:hover .hoverImg {
+    display: block;
+    opacity: 1;
+}
